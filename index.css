@@ -1,0 +1,102 @@
+*{
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	text-align: center;
+	background-color: #222222;
+	font-family: 'Open Sans', sans-serif;
+	color: #FFFFFF;
+	background-image: url(indexImgs/background.png);
+	text-shadow: 1px 1px #000000;
+}
+
+hr{
+	border-top: 1px #000000 solid;
+	border-bottom: 1px #666666 solid;
+}
+
+h1{
+	line-height: 1em;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 60px;
+	font-weight: 300;
+	text-shadow: 2px 2px #000000;
+}
+
+h2{
+	font-weight: 300;
+	font-style: italic;
+	line-height: 1.6em;
+	font-size: 1.8em;
+	width: 100%;
+	background-color: #333333;
+	border-top: 1px #3F3F3F solid;
+	border-bottom: 1px #111111 solid;
+	padding-bottom: 5px;
+	margin-bottom: 30px;
+}
+
+a.projectLink{
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+	margin: 10px;
+	color: #FFFFFF;
+	border: 1px transparent solid;
+	font-size: 1.35em;
+	font-weight: 300;
+	
+	transition: background-color, border-color, color;
+	transition-duration: 250ms;
+}
+
+a.projectLink:hover{
+	background-color: #333333;
+	border: 1px #AAAAAA solid;
+	color: #FF8800;
+}
+
+div.category{
+	margin-bottom: 40px;
+}
+
+#contactInfo{
+	margin-bottom: 40px;
+}
+
+#contactInfo a{
+	color: #FF8800;
+	text-decoration: none;
+	border-radius: 4px;
+	padding: 0px 4px 0px 4px;
+	
+	transition: background-color, border-color, color;
+	transition-duration: 250ms;
+}
+
+#contactInfo a:hover{
+	color: #FF3333;
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+a.categoryLink{
+	color: #FFFFFF;
+	text-decoration: none;
+	outline: none;
+}
+
+a.categoryLink h2{
+	transition: background-color, color;
+	transition-duration: 250ms;
+}
+
+a.categoryLink:active h2{
+	background-color: #555555;
+	color: #FF8800;
+	transition-duration: 1000ms;
+}
+
