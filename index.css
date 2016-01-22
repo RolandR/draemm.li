@@ -1,3 +1,5 @@
+@import url(./media/openSansFont/OpenSans.css);
+
 *{
 	border: none;
 	margin: 0px;
@@ -7,7 +9,7 @@
 body{
 	text-align: center;
 	background-color: #222222;
-	font-family: 'Open Sans', sans-serif;
+	font-family: OpenSans, sans-serif;
 	color: #FFFFFF;
 	background-image: url(indexImgs/background.png);
 	text-shadow: 1px 1px #000000;
@@ -20,7 +22,7 @@ hr{
 
 h1{
 	line-height: 1em;
-	margin-top: 30px;
+	margin-top: 20px;
 	margin-bottom: 20px;
 	font-size: 60px;
 	font-weight: 300;
@@ -62,6 +64,10 @@ a.projectLink:hover{
 
 div.category{
 	margin-bottom: 40px;
+}
+
+#logo{
+	margin-top: 40px;
 }
 
 #contactInfo{

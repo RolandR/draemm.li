@@ -6,139 +6,164 @@
 		</title>
 		<meta charset="utf-8" /> 
 		<link rel="stylesheet" type="text/css" media="all" href="./index.css" /> 
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
-
 		<link rel="shortcut icon" href="./media/favicon.ico">
-		<link rel="icon" type="image/png" href="./media/favicon-192x192.png" sizes="192x192">
-		<link rel="icon" type="image/png" href="./media/favicon-160x160.png" sizes="160x160">
-		<link rel="icon" type="image/png" href="./media/favicon-96x96.png" sizes="96x96">
-		<link rel="icon" type="image/png" href="./media/favicon-16x16.png" sizes="16x16">
-		<link rel="icon" type="image/png" href="./media/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="./media/favicon-192x192.png" height="300" width="300" sizes="192x192">
+		<link rel="icon" type="image/png" href="./media/favicon-160x160.png" height="300" width="300" sizes="160x160">
+		<link rel="icon" type="image/png" href="./media/favicon-96x96.png" height="300" width="300" sizes="96x96">
+		<link rel="icon" type="image/png" href="./media/favicon-16x16.png" height="300" width="300" sizes="16x16">
+		<link rel="icon" type="image/png" href="./media/favicon-32x32.png" height="300" width="300" sizes="32x32">
 
 		<meta name="viewport" content="width=device-width" />
 		<meta name="mobile-web-app-capable" content="yes" />
+
+		<meta name="description" content="Projects and experiments by Roland Rytz" />
+		<meta name="author" content="Roland Rytz" />
+		<meta name="keywords" content="javascript, html5, roland rytz" />
+		<meta name="robots" content="index, follow" />
+		
 	</head>
 	<body>
-		<h1>Things I made</h1>
-		<p id="contactInfo">By Roland Rytz &nbsp;- <a href="mailto:roland.rytz@gmail.com">E-Mail</a> - <a href="https://github.com/RolandR" target="_blank">Github</a></p>
+		<a href="/">
+			<img id="logo" src="./media/r.svg" height="150" alt="Logo" title="" />
+		</a>
+		<header>
+			<h1>Things I made</h1>
+			<p id="contactInfo">By Roland Rytz &nbsp;- <a href="mailto:roland.rytz@gmail.com">E-Mail</a> - <a href="https://github.com/RolandR" target="_blank">Github</a></p>
+		</header>
 		
-		<div class="category">
+		<section class="category">
 			<a id="terrain" class="categoryLink" href="#terrain">
 				<h2>Terrain Generation</h2>
 			</a>
 			<a class="projectLink" href="./various/terrain/2D/">
-				<img src="./indexImgs/terrain2d.png" alt="2D terrain" /><br />
+				<img src="./indexImgs/terrain2d.png" height="300" width="300" alt="2D terrain" /><br />
 				<span>2D terrain, infinite zoom</span>
 			</a>
 			<a class="projectLink" href="./various/terrain/3DFlat/">
-				<img src="./indexImgs/terrain3dflat.png" alt="3D terrain map" /><br />
+				<img src="./indexImgs/terrain3dflat.png" height="300" width="300" alt="3D terrain map" /><br />
 				3D terrain, greyscale map
 			</a>
 			<a class="projectLink" href="./various/terrain/3D?iterations=9&amp;ruggedness=1&amp;seed=HelloWorld">
-				<img src="./indexImgs/terrain3d.png" alt="3D terrain rendering" /><br />
+				<img src="./indexImgs/terrain3d.png" height="300" width="300" alt="3D terrain rendering" /><br />
 				3D terrain, with 3D rendering
 			</a>
 			<a class="projectLink" href="./various/terrain/fancy">
-				<img src="./indexImgs/worldgen.png" alt="Terrain Generation with Biomes" /><br />
+				<img src="./indexImgs/worldgen.png" height="300" width="300" alt="Terrain Generation with Biomes" /><br />
 				World generator
 			</a>
-		</div>
-		<div class="category">
+			<a class="projectLink" href="./various/terrain/webgl">
+				<img src="./indexImgs/webgl.png" height="300" width="300" alt="Terrain Generation with WebGL rendering" /><br />
+				3D Terrain (WebGL)
+			</a>
+			<a class="projectLink" href="./various/terrain/webgl/sphere">
+				<img src="./indexImgs/webglSphere.png" height="300" width="300" alt="Planet Generation with WebGL Rendering" /><br />
+				Planet Generator (WebGL)
+			</a>
+		</section>
+		<section class="category">
 			<a id="tools" class="categoryLink" href="#tools">
 				<h2>Useful Tools</h2>
 			</a>
 			<a class="projectLink" href="./various/mapstuff/">
-				<img src="./indexImgs/mapstuff.png" alt="Mapstuff" /><br />
+				<img src="./indexImgs/mapstuff.png" height="300" width="300" alt="Mapstuff" /><br />
 				<span>Mapstuff - Mindmap tool</span>
 			</a>
 			<a class="projectLink" href="./various/timeHelper/">
-				<img src="./indexImgs/timehelper.png" alt="Time Helper" /><br />
+				<img src="./indexImgs/timehelper.png" height="300" width="300" alt="Time Helper" /><br />
 				<span>Time Helper</span>
 			</a>
-		</div>
-		<div class="category">
+		</section>
+		<section class="category">
 			<a id="eyecandy" class="categoryLink" href="#eyecandy">
 				<h2>Eye Candy</h2>
 			</a>
 			<a class="projectLink" href="./various/bahnhofsuhr/">
-				<img src="./indexImgs/bahnhofsuhr.png" alt="Bahnhofsuhr" /><br />
+				<img src="./indexImgs/bahnhofsuhr.png" height="300" width="300" alt="Bahnhofsuhr" /><br />
 				<span>Swiss Railway Clock</span>
 			</a>
 			<a class="projectLink" href="./various/sparkle/">
-				<img src="./indexImgs/sparkle.png" alt="Sparkle" /><br />
+				<img src="./indexImgs/sparkle.png" height="300" width="300" alt="Sparkle" /><br />
 				<span>Sparkle</span>
 			</a>
 			<a class="projectLink" href="./various/3d/starflight/">
-				<img src="./indexImgs/starflight.png" alt="Star Flight" /><br />
+				<img src="./indexImgs/starflight.png" height="300" width="300" alt="Star Flight" /><br />
 				<span>Star Flight</span>
 			</a>
 			<a class="projectLink" href="./various/colorCycle/">
-				<img src="./indexImgs/colorCycle.png" alt="Color Cycle" /><br />
+				<img src="./indexImgs/colorCycle.png" height="300" width="300" alt="Color Cycle" /><br />
 				<span>Color Cycle</span>
 			</a>
-		</div>
-		<div class="category">
+			<a class="projectLink" href="./various/plants">
+				<img src="./indexImgs/plants.png" height="300" width="300" alt="Generated tree" /><br />
+				<span>Procedural Plant Generation</span>
+			</a>
+			<a class="projectLink" href="./various/switzer3D">
+				<img src="./indexImgs/switzer3D.png" height="300" width="300" alt="Switzerland 3D" /><br />
+				<span>Switzerland 3D (WebGL)</span>
+			</a>
+		</section>
+		<section class="category">
 			<a id="experiments" class="categoryLink" href="#experiments">
 				<h2>Various Experiments</h2>
 			</a>
 			<a class="projectLink" href="./various/mirac/">
-				<img src="./indexImgs/mirac.png" alt="MIRAC Emulator" /><br />
+				<img src="./indexImgs/mirac.png" height="300" width="300" alt="MIRAC Emulator" /><br />
 				<span>MIRAC CPU Emulator</span>
 			</a>
 			<a class="projectLink" href="./various/textgen/">
-				<img src="./indexImgs/textgen.png" alt="Text Generator" /><br />
+				<img src="./indexImgs/textgen.png" height="300" width="300" alt="Text Generator" /><br />
 				<span>Text Generator</span>
 			</a>
 			<a class="projectLink" href="./various/allTheWords/">
-				<img src="./indexImgs/allthewords.png" alt="All The Words" /><br />
+				<img src="./indexImgs/allthewords.png" height="300" width="300" alt="All The Words" /><br />
 				<span>All possible 5-letter words</span>
 			</a>
 			<a class="projectLink" href="./various/geneticAlgorithm1/">
-				<img src="./indexImgs/geneticAlgorithm.png" alt="Genetic Algorithm" /><br />
+				<img src="./indexImgs/geneticAlgorithm.png" height="300" width="300" alt="Genetic Algorithm" /><br />
 				<span>A "genetic" "algorithm"</span>
 			</a>
 			<a class="projectLink" href="./various/vigenere/">
-				<img src="./indexImgs/vigenere.png" alt="Vigen&egrave;re encryption" /><br />
+				<img src="./indexImgs/vigenere.png" height="300" width="300" alt="Vigen&egrave;re encryption" /><br />
 				<span>Vigen&egrave;re encryption</span>
 			</a>
 			<a class="projectLink" href="./various/brainfjsk/">
-				<img src="./indexImgs/brainfjsk.png" alt="Brainfuck interpreter" /><br />
+				<img src="./indexImgs/brainfjsk.png" height="300" width="300" alt="Brainfuck interpreter" /><br />
 				<span>Brainfuck interpreter</span>
 			</a>
 			<a class="projectLink" href="./various/colorHash/">
-				<img src="./indexImgs/colorHash.png" alt="Color Hash" /><br />
+				<img src="./indexImgs/colorHash.png" height="300" width="300" alt="Color Hash" /><br />
 				<span>Unique color from string</span>
 			</a>
-		</div>
-		<div class="category">
+		</section>
+		<section class="category">
 			<a id="apps" class="categoryLink" href="#apps">
 				<h2>Apps</h2>
 			</a>
 			<a class="projectLink" href="./various/cards/">
-				<img src="./indexImgs/cards.png" alt="Cards" /><br />
+				<img src="./indexImgs/cards.png" height="300" width="300" alt="Cards" /><br />
 				<span>Cards - A flashcard app</span>
 			</a>
-		</div>
-		<div class="category">
+		</section>
+		<section class="category">
 			<a id="games" class="categoryLink" href="#games">
 				<h2>Games</h2>
 			</a>
 			<a class="projectLink" href="./various/games/heartAttack/">
-				<img src="./indexImgs/heartAttack.png" alt="Heart Attack!" /><br />
+				<img src="./indexImgs/heartAttack.png" height="300" width="300" alt="Heart Attack!" /><br />
 				<span>Heart Attack!</span>
 			</a>
 			<a class="projectLink" href="./various/games/tetris/">
-				<img src="./indexImgs/tetris.png" alt="TetrJS" /><br />
+				<img src="./indexImgs/tetris.png" height="300" width="300" alt="TetrJS" /><br />
 				<span>TetrJS</span>
 			</a>
 			<a class="projectLink" href="./various/games/snake/">
-				<img src="./indexImgs/snake.png" alt="Snake" /><br />
+				<img src="./indexImgs/snake.png" height="300" width="300" alt="Snake" /><br />
 				<span>Snake</span>
 			</a>
 			<a class="projectLink" href="./various/games/pong/">
-				<img src="./indexImgs/pong.png" alt="Pong" /><br />
+				<img src="./indexImgs/pong.png" height="300" width="300" alt="Pong" /><br />
 				<span>Pong</span>
 			</a>
-		</div>
+		</section>
 	</body>
 </html>
