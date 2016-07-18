@@ -106,3 +106,6 @@ a.categoryLink:active h2{
 	transition-duration: 1000ms;
 }
 
+section{
+	margin-bottom: 50px;
+}
