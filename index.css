@@ -29,6 +29,11 @@ h1{
 	text-shadow: 2px 2px #000000;
 }
 
+h1.errorpage{
+	font-size: 120px;
+	margin-bottom: 0px;
+}
+
 h2{
 	font-weight: 300;
 	font-style: italic;
@@ -74,7 +79,8 @@ div.category{
 	margin-bottom: 40px;
 }
 
-#contactInfo a{
+#contactInfo a,
+.errorDescription a{
 	color: #FF8800;
 	text-decoration: none;
 	border-radius: 4px;
@@ -84,7 +90,8 @@ div.category{
 	transition-duration: 250ms;
 }
 
-#contactInfo a:hover{
+#contactInfo a:hover,
+.errorDescription a:hover{
 	color: #FF3333;
 	background-color: rgba(255, 255, 255, 0.1);
 }
@@ -108,4 +115,23 @@ a.categoryLink:active h2{
 
 section{
 	margin-bottom: 50px;
+}
+
+p.subtitle{
+	font-size: 40px;
+	font-weight: 300;
+	text-shadow: 2px 2px #000000;
+}
+
+div.errorBackground{
+	background-color: #333333;
+	width: 100%;
+	padding-bottom: 10px;
+	margin-top: 30px;
+}
+
+div.errorDescription{
+	font-size: 25px;
+	font-weight: 300;
+	margin-top: 40px;
 }

@@ -1,7 +1,7 @@
 #Error pages
-#ErrorDocument 404 /error.html
-#ErrorDocument 403 /error.html
-#ErrorDocument 500 /error.html
+ErrorDocument 404 /404.html
+ErrorDocument 403 /403.html
+ErrorDocument 500 /500.html
 
 #Redirect to https
 RewriteEngine On
