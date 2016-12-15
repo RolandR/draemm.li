@@ -1,0 +1,36 @@
+#Error pages
+#ErrorDocument 404 /error.html
+#ErrorDocument 403 /error.html
+#ErrorDocument 500 /error.html
+
+#Redirect to https
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L] 
+
+#Enable HSTS
+#Header set Strict-Transport-Security "max-age=31556952" env=HTTPS
+#Header set Strict-Transport-Security "max-age=7889238;includeSubdomains" env=HTTPS
+#Enable Content Security Policy
+#Header set Content-Security-Policy: "default-src https:"
+# Block pages from loading when they detect reflected XSS attacks
+#Header set X-XSS-Protection: "1; mode=block"
+
+#Disable iframing
+#Header set X-Frame-Options: DENY
+
+## EXPIRES CACHING ##
+#<IfModule mod_expires.c>
+#ExpiresActive On
+#ExpiresByType image/jpg "access 1 year"
+#ExpiresByType image/jpeg "access 1 year"
+#ExpiresByType image/gif "access 1 year"
+#ExpiresByType image/png "access 1 year"
+#ExpiresByType text/css "access 1 month"
+#ExpiresByType text/html "access 2 hours"
+#ExpiresByType application/pdf "access 1 month"
+#ExpiresByType text/x-javascript "access 1 month"
+#ExpiresByType application/x-shockwave-flash "access 1 month"
+#ExpiresByType image/x-icon "access 1 year"
+#ExpiresDefault "access 1 month"
+#</IfModule>
