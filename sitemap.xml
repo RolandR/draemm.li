@@ -146,6 +146,10 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://draemm.li/various/quadtree/</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://draemm.li/various/cards/</loc>
         <priority>0.5</priority>
     </url>
