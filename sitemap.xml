@@ -10,6 +10,14 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://draemm.li/various/volumeRendering/</loc>
+        <priority>0.5</priority>
+    </url>
+     <url>
+        <loc>https://draemm.li/various/volumeRendering/webgl2/</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://draemm.li/various/mirac/</loc>
         <priority>0.7</priority>
     </url>
@@ -63,6 +71,10 @@
     </url>
     <url>
         <loc>https://draemm.li/various/terrain/webgl/sphere/</loc>
+        <priority>0.5</priority>
+    </url>
+     <url>
+        <loc>https://draemm.li/various/glterrain/</loc>
         <priority>0.5</priority>
     </url>
     <url>
