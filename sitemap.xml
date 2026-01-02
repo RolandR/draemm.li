@@ -82,6 +82,10 @@
         <priority>0.5</priority>
     </url>
     <url>
+        <loc>https://draemm.li/p/linetrees/</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
         <loc>https://draemm.li/various/starcatalog/</loc>
         <priority>0.6</priority>
     </url>
