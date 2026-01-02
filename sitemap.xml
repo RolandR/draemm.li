@@ -102,12 +102,16 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/sparkle/</loc>
+        <loc>https://draemm.li/p/aquarium/</loc>
         <priority>0.5</priority>
     </url>
     <url>
+        <loc>https://draemm.li/various/sparkle/</loc>
+        <priority>0.2</priority>
+    </url>
+    <url>
         <loc>https://draemm.li/various/3d/starflight/</loc>
-        <priority>0.6</priority>
+        <priority>0.3</priority>
     </url>
     <url>
         <loc>https://draemm.li/various/bacteria/?prob=0.6&amp;c=10</loc>
