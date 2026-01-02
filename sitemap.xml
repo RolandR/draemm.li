@@ -10,75 +10,75 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/volumeRendering/</loc>
+        <loc>https://draemm.li/p/volumeRendering/</loc>
         <priority>0.5</priority>
     </url>
      <url>
-        <loc>https://draemm.li/various/volumeRendering/webgl2/</loc>
+        <loc>https://draemm.li/p/volumeRendering/webgl2/</loc>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/mirac/</loc>
+        <loc>https://draemm.li/p/mirac/</loc>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/bahnhofsuhr/</loc>
+        <loc>https://draemm.li/p/bahnhofsuhr/</loc>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/fractals/l-systems/</loc>
+        <loc>https://draemm.li/p/fractals/l-systems/</loc>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/plants/</loc>
+        <loc>https://draemm.li/p/plants/</loc>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/brainrender/</loc>
+        <loc>https://draemm.li/p/brainrender/</loc>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/hiddenvalley/</loc>
+        <loc>https://draemm.li/p/hiddenvalley/</loc>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/place-atlas/</loc>
+        <loc>https://draemm.li/p/place-atlas/</loc>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/dyschro/2/</loc>
+        <loc>https://draemm.li/p/dyschro/2/</loc>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/tonegen/</loc>
+        <loc>https://draemm.li/p/tonegen/</loc>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/terrain/2D/</loc>
+        <loc>https://draemm.li/p/terrain/2D/</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/terrain/3DFlat/</loc>
+        <loc>https://draemm.li/p/terrain/3DFlat/</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/terrain/3D/?iterations=9&amp;ruggedness=0.4&amp;seed=xyz</loc>
+        <loc>https://draemm.li/p/terrain/3D/?iterations=9&amp;ruggedness=0.4&amp;seed=xyz</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/terrain/fancy/1.1/</loc>
+        <loc>https://draemm.li/p/terrain/fancy/1.1/</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/terrain/webgl/</loc>
+        <loc>https://draemm.li/p/terrain/webgl/</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/terrain/webgl/sphere/</loc>
+        <loc>https://draemm.li/p/terrain/webgl/sphere/</loc>
         <priority>0.5</priority>
     </url>
      <url>
-        <loc>https://draemm.li/various/glterrain/</loc>
+        <loc>https://draemm.li/p/glterrain/</loc>
         <priority>0.5</priority>
     </url>
     <url>
@@ -86,23 +86,23 @@
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/starcatalog/</loc>
+        <loc>https://draemm.li/p/starcatalog/</loc>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/webglife/</loc>
+        <loc>https://draemm.li/p/webglife/</loc>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/switzer3D/</loc>
+        <loc>https://draemm.li/p/switzer3D/</loc>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/transformations/</loc>
+        <loc>https://draemm.li/p/transformations/</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/mandelbrot/</loc>
+        <loc>https://draemm.li/p/mandelbrot/</loc>
         <priority>0.7</priority>
     </url>
     <url>
@@ -110,95 +110,95 @@
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/sparkle/</loc>
+        <loc>https://draemm.li/p/sparkle/</loc>
         <priority>0.2</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/3d/starflight/</loc>
+        <loc>https://draemm.li/p/3d/starflight/</loc>
         <priority>0.3</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/bacteria/?prob=0.6&amp;c=10</loc>
+        <loc>https://draemm.li/p/bacteria/?prob=0.6&amp;c=10</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/fractals/hilbert/</loc>
+        <loc>https://draemm.li/p/fractals/hilbert/</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/fractals/koch/</loc>
+        <loc>https://draemm.li/p/fractals/koch/</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/fractals/sierpinski/</loc>
+        <loc>https://draemm.li/p/fractals/sierpinski/</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/fractals/flowsnake/</loc>
+        <loc>https://draemm.li/p/fractals/flowsnake/</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/fractals/dragon/</loc>
+        <loc>https://draemm.li/p/fractals/dragon/</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/mapstuff/</loc>
+        <loc>https://draemm.li/p/mapstuff/</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/timeHelper/</loc>
+        <loc>https://draemm.li/p/timeHelper/</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/textgen/</loc>
+        <loc>https://draemm.li/p/textgen/</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/geneticAlgorithm1/</loc>
+        <loc>https://draemm.li/p/geneticAlgorithm1/</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/vigenere/</loc>
+        <loc>https://draemm.li/p/vigenere/</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/brainfjsk/</loc>
+        <loc>https://draemm.li/p/brainfjsk/</loc>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/colorHash/</loc>
+        <loc>https://draemm.li/p/colorHash/</loc>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/quadtree/</loc>
+        <loc>https://draemm.li/p/quadtree/</loc>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/euclideanSpanningTree/</loc>
+        <loc>https://draemm.li/p/euclideanSpanningTree/</loc>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/cards/</loc>
+        <loc>https://draemm.li/p/cards/</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/games/heartAttack/</loc>
+        <loc>https://draemm.li/p/games/heartAttack/</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/games/tetris/</loc>
+        <loc>https://draemm.li/p/games/tetris/</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/games/snake/</loc>
+        <loc>https://draemm.li/p/games/snake/</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/games/pong/</loc>
+        <loc>https://draemm.li/p/games/pong/</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://draemm.li/various/place-atlas/about.html</loc>
+        <loc>https://draemm.li/p/place-atlas/about.html</loc>
         <priority>0.5</priority>
     </url>
 </urlset>
